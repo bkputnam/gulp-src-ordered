@@ -11,7 +11,11 @@ function deglob() {
 	}), true);
 }
 
-module.exports = function () {
+function srcOrdered() {
 	return gulp.src(deglob(arguments));
-};
+}
+
+srcOrdered.deglob = deglob;
+
+module.exports = srcOrdered
 
