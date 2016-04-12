@@ -1,0 +1,23 @@
+{
+  "name": "gulp-src-ordered",
+  "version": "1.0.0",
+  "description": "Gulp plugin that provides gulp.src-like functionality with well-defined ordering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkputnam/gulp-src-ordered.git"
+  },
+  "author": "Brian Putnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkputnam/gulp-src-ordered/issues"
+  },
+  "homepage": "https://github.com/bkputnam/gulp-src-ordered#readme",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "underscore": "^1.8.3"
+  }
+}
