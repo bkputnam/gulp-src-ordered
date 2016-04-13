@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var gulp = require('gulp');
 
 function deglob() {
 	var syncGlob = require('glob').sync,

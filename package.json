@@ -4,7 +4,7 @@
   "description": "Gulp plugin that provides gulp.src-like functionality with well-defined ordering",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/just-test-it/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   "homepage": "https://github.com/bkputnam/gulp-src-ordered#readme",
   "dependencies": {
     "glob": "^7.0.3",
+    "gulp": "^3.9.1",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "just-test-it": "0.0.4",
+    "promise": "^7.1.1"
   }
 }
