@@ -6,11 +6,11 @@ http://stackoverflow.com/questions/28486866/gulp-src-using-sync-globbing#answer-
 
 ## Usage
 
-```
+```bash
 npm install https://github.com/bkputnam/gulp-src-ordered.git
 ```
 
-```
+```javascript
 var srcOrdered = require('gulp-src-ordered');
 var gulp = require('gulp');
 
