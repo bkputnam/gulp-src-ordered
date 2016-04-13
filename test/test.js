@@ -35,7 +35,7 @@ function _testOrdering(srcFn, resolve, reject, remainingIterations) {
 			reject(basename + ' should come before ' + last);
 		}
 		else {
-			console.log('Passed! (' + basename + ')');
+			// console.log('Passed! (' + basename + ')');
 		}
 		last = basename;
 	});
