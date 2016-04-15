@@ -4,7 +4,7 @@ var path = require('path');
 var gulp = require('gulp');
 var Promise = require('promise');
 
-var NUM_ITERATIONS = 1;
+var NUM_ITERATIONS = 1000;
 
 function testOrdering(srcFn) {
 	var _resolve, _reject;
